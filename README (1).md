@@ -1,10 +1,10 @@
 # ITS-AutomateScript
 
-A small Python script that automates the repetitive, uniform parts of call documentation for an IT Services (ITS) helpdesk. It walks through the standard identity-verification flow for a support call and prints out a documentation entry in the format the department requires, instead of typing the same boilerplate by hand every time.
+A small Python script that automates the repetitive, uniform parts of documentation for an IT Services (ITS) helpdesk. It walks through the standard identity-verification flow for a support call and prints out a documentation entry in the format the department requires, instead of typing the same boilerplate by hand every time.
 
 ## Why
 
-At my ITS job, documentation has to follow a specific standard for every call, and most of the structure is the same regardless of the outcome. This script handles the "same every time" part automatically based on a few Y/N answers, so the only thing left to do is confirm what actually happened on the call.
+At my ITS job, documentation has to follow a specific standard for every contact with a user, and most of the structure is the same. This script handles the "same every time" part automatically based on a few Y/N answers, so the only thing left to do is confirm what actually happened on the call.
 
 ## What it does
 
@@ -48,3 +48,6 @@ V-Step #3: Y
 ## Status
 
 Actively in progress. This version documents a single call per run; a version with a restart loop and a dedicated call-handling function is in development.
+
+
+This ReadMe was generated using Claude Sonnet 5 and edited by Ethan Dippold.
