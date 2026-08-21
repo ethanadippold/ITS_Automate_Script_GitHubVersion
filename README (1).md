@@ -48,6 +48,3 @@ V-Step #3: Y
 ## Status
 
 Actively in progress. This version documents a single call per run; a version with a restart loop and a dedicated call-handling function is in development.
-
-
-This ReadMe was generated using Claude Sonnet 5 and edited by Ethan Dippold.
